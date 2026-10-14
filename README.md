@@ -1,6 +1,6 @@
 # nse-nasdaq-bot — NSE + NASDAQ Algo Bot with Surveillance Filter
 
-**By Deleena K & Aadhitya S R ([@aadhitya-sr](https://github.com/aadhitya-sr)) — BTech, Christ University**
+**By Deleena K & Aadhitya S R ([@AADHITYA369](https://github.com/AADHITYA369)) — BTech, Christ University**
 Nasdaq India AI/ML internship prep project. We built this to learn how an exchange thinks: not just predicting prices, but backtesting properly and blocking bad trades.
 
 Equity algo bot on NIFTY-50 + NASDAQ-100 proxy (via Yahoo) with an ML direction model + DRL sizer + pre-trade compliance filter. Covers what Nasdaq India asked for: Python, SQL, JS/React-style UI (Streamlit + FastAPI), AWS/cloud-ready (Docker), AI/ML, LLMs (explainer), Testing, Capital Markets + Compliance.
