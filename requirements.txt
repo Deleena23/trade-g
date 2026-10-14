@@ -1,0 +1,16 @@
+# Core - keep install light, DRL/GPU optional
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.3
+yfinance>=0.2.40
+matplotlib>=3.8
+joblib>=1.3
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33
+pytest>=8.0
+# Optional (uncomment as needed):
+# lightgbm>=4.0
+# vectorbt>=0.26
+# stable-baselines3>=2.0
+# torch --index-url https://download.pytorch.org/whl/cpu
