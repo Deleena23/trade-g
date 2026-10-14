@@ -1,7 +1,7 @@
 # nse-nasdaq-bot — NSE + NASDAQ Algo Bot with Surveillance Filter
 
-**By Deleena K — BTech, Christ University**
-Nasdaq India AI/ML internship prep project. I built this to learn how an exchange thinks: not just predicting prices, but backtesting properly and blocking bad trades.
+**By Deleena K & Aadhitya S R ([@aadhitya-sr](https://github.com/aadhitya-sr)) — BTech, Christ University**
+Nasdaq India AI/ML internship prep project. We built this to learn how an exchange thinks: not just predicting prices, but backtesting properly and blocking bad trades.
 
 Equity algo bot on NIFTY-50 + NASDAQ-100 proxy (via Yahoo) with an ML direction model + DRL sizer + pre-trade compliance filter. Covers what Nasdaq India asked for: Python, SQL, JS/React-style UI (Streamlit + FastAPI), AWS/cloud-ready (Docker), AI/ML, LLMs (explainer), Testing, Capital Markets + Compliance.
 
@@ -29,10 +29,10 @@ First run works offline — if Yahoo is unreachable I fall back to synthetic GBM
 - `api.py` / `app.py` — FastAPI `/signal /backtest` + Streamlit dashboard.
 - Full arch: see `ARCHITECTURE.md`. Dev notes: `NOTES.md`.
 
-## Results (my run, synthetic data)
+## Results (our run, synthetic data)
 Train 10541 / test 2226 rows. Strategy Sharpe negative on noise (BH positive) — engine verified, data random. With real Yahoo data this flips. Chart: `data_out/backtest_result.png`. Tests: 11 passed.
 
-## References I learnt from
-FinRL (train-test-trade), freqtrade (bot loop), Qlib Alpha158 (factors), OpenBB (data API), FinGPT (LLM explainer), LEAN (engine). Code is my own structure.
+## References we learnt from
+FinRL (train-test-trade), freqtrade (bot loop), Qlib Alpha158 (factors), OpenBB (data API), FinGPT (LLM explainer), LEAN (engine). Code is our own structure.
 
-Educational only, not financial advice. — Deleena
+Educational only, not financial advice. — Deleena & Aadhitya

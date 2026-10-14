@@ -1,7 +1,7 @@
-# My dev notes — Deleena K
+# Our dev notes — Deleena K & Aadhitya S R
 
 ## Why this project
-I wanted one repo for Nasdaq AI/ML that shows ML + backtest + surveillance, not just a notebook with accuracy. Exchanges care about risk and costs, so I added a compliance filter.
+We wanted one repo for Nasdaq AI/ML that shows ML + backtest + surveillance, not just a notebook with accuracy. Exchanges care about risk and costs, so we added a compliance filter.
 
 ## What broke + fixed
 1. `KeyError: non-monotonic DatetimeIndex` in data.py — concat of 7 tickers repeats dates. Fixed by resetting to `date` column and masking (`<= TRAIN_END`, `>= TEST_START`).
