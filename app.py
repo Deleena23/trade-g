@@ -7,8 +7,8 @@ import streamlit as st
 from config import DATA_OUT
 from risk import detect_anomaly_row, explain_alert
 
-st.set_page_config(page_title="nse-nasdaq-bot", layout="wide")
-st.title("NSE-NASDAQ Algo Bot — surveillance + backtest")
+st.set_page_config(page_title="trade-g", layout="wide")
+st.title("trade-g - surveillance + backtest")
 
 files = sorted(DATA_OUT.glob("*.csv"))
 names = [f.name for f in files if f.name not in ("train_data.csv", "trade_data.csv")]

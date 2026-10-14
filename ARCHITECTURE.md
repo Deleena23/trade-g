@@ -1,4 +1,4 @@
-# nse-nasdaq-bot — Architecture (Deleena K & Aadhitya S R)
+# trade-g — Architecture (Deleena K & Aadhitya S R)
 
 > BTech, Christ University — Nasdaq India AI/ML internship prep.
 > Medium-scope equity algo bot: NIFTY-50 + NASDAQ-100 proxy with ML signal + DRL sizer + pre-trade surveillance filter.

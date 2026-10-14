@@ -11,7 +11,7 @@ import pandas as pd
 
 from config import DATA_OUT, TRAINED_DIR
 
-app = FastAPI(title="nse-nasdaq-bot")
+app = FastAPI(title="trade-g")
 
 
 @app.get("/health")

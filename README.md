@@ -1,4 +1,4 @@
-# nse-nasdaq-bot — NSE + NASDAQ Algo Bot with Surveillance Filter
+# trade-g — NSE + NASDAQ Algo Bot with Surveillance Filter
 
 **By Deleena K & Aadhitya S R ([@AADHITYA369](https://github.com/AADHITYA369)) — BTech, Christ University**
 Nasdaq India AI/ML internship prep project. We built this to learn how an exchange thinks: not just predicting prices, but backtesting properly and blocking bad trades.

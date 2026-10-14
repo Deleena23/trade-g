@@ -1,4 +1,4 @@
-"""Shared config for nse-nasdaq-bot — Deleena K (Christ University)."""
+"""Shared config for trade-g — Deleena K (Christ University)."""
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
